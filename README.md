@@ -1,4 +1,13 @@
 # FrontEnd
+
+## Home
+![image](https://user-images.githubusercontent.com/5818269/180838899-cbc8d522-ca7d-43b0-8d44-7968d2bdd35b.png)
+
+## Result
+
+![image](https://user-images.githubusercontent.com/5818269/180839122-fc787bee-5bee-4bd8-bd24-7e583f3a9e9a.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
