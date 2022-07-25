@@ -1,0 +1,125 @@
+* {
+  font-family: Montserrat,sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.App {
+  text-align: center;
+}
+
+.header{
+  padding: 16px;
+  background-color: #1e7a75;
+  color: white;
+}
+
+.header .item .img{
+  width: 200px;
+}
+
+.containerProducts {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  margin: 8px;
+  background-color:#f3f5f7;
+}
+
+.containerProducts .cardItem {
+  min-height: 152px;
+  width: 100%;
+  padding: 20px;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+.containerProducts .cardItem:hover {
+  border: 1px solid  #1e7a75;
+}
+
+.containerProducts .cardItem:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.cardItem .img {
+  margin: 10px;
+  max-width: 140px;
+}
+
+.containerButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:100px;
+}
+
+.containerSearch{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:90px;
+}
+
+.containerButton .buttonEnviar {
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid  #1e7a75;
+  padding: 20px 30px;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  max-width:800px;
+  width: 100%;
+  min-width: 300px;
+}
+
+.containerButton .buttonEnviar:hover {
+  border: 1px solid  #3abdb6;
+  cursor: pointer;
+}
+
+.containerButton .buttonEnviar:active {
+  transform: scale(0.80);
+  /*Scalingbuttonto0.98toitsoriginalsize*/box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  -webkit-transform: scale(0.80);
+  -moz-transform: scale(0.80);
+  -ms-transform: scale(0.80);
+  -o-transform: scale(0.80);
+}
+
+.imgSearch {
+  width: 100%;
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.imgSearch:active {
+  transform: scale(0.98);
+}
+
+
+.quantChoiceTotal{
+
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #1e7a75 2px dashed;
+  width:50px;
+  height: 50px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
